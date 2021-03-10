@@ -7,6 +7,42 @@
     <title>Document</title>
 </head>
 <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Village Food Channel</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="content.php">Home</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="index.php">Login</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  Contacts
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="phone.php">Phone Number</a></li>
+                  <li><a class="dropdown-item" href="#">Youtube</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">Facebook</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Logout</a>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">Search</button>
+            </form>
+          </div>
+        </div>
+      </nav>
     <div class="container">
         <div class="row">
             <div class="col col-12 col-sm-6 col-md-6 col-lg-6 col-xl-6 col-xxl-6">
@@ -21,10 +57,10 @@
                         <img height="500px" src="https://i.pinimg.com/originals/a4/d4/16/a4d416a2a43d4c849db9f79cda4f7daa.jpg" class="d-block w-100" alt="...">
                       </div>
                       <div class="carousel-item">
-                        <img height="500px" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ4LIuPfpnm5RnAFHT0L7Av5Hl4GCYyCrkGdVTdtUcB8b6hvcJyKF_uG1YxpzsGSY73Ato&usqp=CAU" class="d-block w-100" alt="...">
+                        <img height="500px" src="https://i.ytimg.com/vi/QMlwnBuJFwE/maxresdefault.jpg" class="d-block w-100" alt="...">
                       </div>
                       <div class="carousel-item">
-                        <img height="500px" src="https://i.ytimg.com/vi/XMicm4wTyso/mqdefault.jpg" class="d-block w-100" alt="...">
+                        <img height="500px" src="https://i.ytimg.com/vi/Sg8tH2n-UmE/maxresdefault.jpg" class="d-block w-100" alt="...">
                       </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"  data-bs-slide="prev">
@@ -41,12 +77,12 @@
                     <div class="accordion-item">
                       <h2 class="accordion-header" id="headingOne">
                         <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-                          Accordion Item #1
+                          FIROZ
                         </button>
                       </h2>
                       <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
                         <div class="accordion-body">
-                          <strong>This is the first item's accordion body.</strong> It is hidden by default, until the collapse plugin adds the appropriate classes that we use to style each element. These classes control the overall appearance, as well as the showing and hiding via CSS transitions. You can modify any of this with custom CSS or overriding our default variables. It's also worth noting that just about any HTML can go within the <code>.accordion-body</code>, though the transition does limit overflow.
+                          <strong>Village Food Channel(Firoz Chuttipara)</strong> Village Food Channel is a popular Youtube channel of Firoz Chuttipura, a normal human from Palakkad. It has 2.47 million subscribers. 
                         </div>
                       </div>
                     </div>
